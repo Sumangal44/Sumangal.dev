@@ -25,7 +25,7 @@ export default function Header() {
               priority
             />
           </div>
-          <span className="font-bold text-lg md:text-xl">fox_editions_fe</span>
+          <span className="font-bold text-lg md:text-xl">Sumangal.dev</span>
         </Link>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           <Link href="/portfolio">Portfolio</Link>

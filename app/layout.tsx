@@ -14,9 +14,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'fox_editions_fe - Graphic Designer Portfolio',
-  description: 'Professional graphic designer specializing in branding, logo design, and visual communication. View my portfolio and services.',
-  keywords: 'graphic design, branding, logo design, visual communication, portfolio',
+  title: 'Sumangal.dev - Fontend Developer Portfolio',
+  description: 'Sumangal Karan - Portfolio',
+  keywords: 'Fontend Developer, Portfolio, Sumangal Karan, Web Developer, Designer',
   authors: [{ name: 'Sumangal Karan', url: 'https://devsumangal.netlify.app/' }],
   openGraph: {
     type: 'website',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: 'https://www.yourwebsite.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'fox_edition_fe - Graphic Designer Portfolio',
+        alt: 'Sumangal.dev - Fontend Developer Portfolio',
       },
     ],
   },
