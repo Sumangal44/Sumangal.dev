@@ -1,10 +1,11 @@
 import { CheckCircle } from 'lucide-react'
 
 const services = [
-  { title: 'Logo Design', description: 'Create a unique and memorable brand identity.' },
-  { title: 'Branding', description: 'Develop a cohesive visual language for your brand.' },
-  { title: 'Print Design', description: 'Design eye-catching marketing materials and publications.' },
-  { title: 'Digital Design', description: 'Craft engaging visuals for web and social media.' },
+  { title: 'Custom Web Development', description: 'Create a visually stunning website from scratch.' },
+  { title: 'Responsive Design', description: 'Design layouts that adapt to different screen sizes.' },
+  { title: 'Website Optimization', description: 'Improve website performance and SEO.' },
+  { title: 'Maintenance & Support', description: 'Provide ongoing maintenance and support.' },
+  
 ]
 
 export default function Services() {

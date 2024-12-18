@@ -22,7 +22,7 @@ export default function Hero() {
       </div>
       <div className="relative w-full max-w-[300px] lg:max-w-[400px] aspect-square">
         <Image
-          src="https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+          src="https://i.pinimg.com/1200x/d6/a9/a2/d6a9a2018da406947f6ed377d302b628.jpg"
           alt="Designer Profile"
           fill
           style={{ objectFit: 'cover' }}

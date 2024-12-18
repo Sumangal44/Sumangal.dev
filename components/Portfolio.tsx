@@ -5,15 +5,15 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 const projects = [
-  { id: 1, title: 'Project 1', category: 'logo', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
-  { id: 2, title: 'Project 2', category: 'branding', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
-  { id: 3, title: 'Project 3', category: 'poster', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
-  { id: 4, title: 'Project 4', category: 'logo', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
-  { id: 5, title: 'Project 5', category: 'branding', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
-  { id: 6, title: 'Project 6', category: 'poster', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
+  { id: 1, title: 'Project 1', category: 'portfolio', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
+  { id: 2, title: 'Project 2', category: 'ecommerce', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
+  { id: 3, title: 'Project 3', category: 'others', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
+  { id: 4, title: 'Project 4', category: 'portfolio', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
+  { id: 5, title: 'Project 5', category: 'ecommerce', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
+  { id: 6, title: 'Project 6', category: 'others', image: 'https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg' },
 ]
 
-const categories = ['all', 'logo', 'branding', 'poster']
+const categories = ['all', 'portfolio','ecommerce','others',]
 
 export default function Portfolio() {
   const [filter, setFilter] = useState('all')

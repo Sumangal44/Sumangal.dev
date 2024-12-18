@@ -5,36 +5,50 @@ import Image from "next/image";
 
 const skills = [
   {
-    name: "Adobe Photoshop",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "HTML",
+    logo: "https://www.svgrepo.com/show/452228/html-5.svg"
   },
   {
-    name: "Adobe Illustrator",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "CSS",  
+    logo: "https://www.svgrepo.com/show/349330/css3.svg"
   },
   {
-    name: "Adobe InDesign",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "JavaScript",
+    logo: "https://www.svgrepo.com/show/349419/javascript.svg"
   },
   {
-    name: "Figma",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "TypeScript",
+    logo: "https://www.svgrepo.com/show/374146/typescript-official.svg"
   },
   {
-    name: "Sketch",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "Python",
+    logo: "https://www.svgrepo.com/show/452091/python.svg"
+
   },
   {
-    name: "Adobe XD",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "React",
+    logo: "https://www.svgrepo.com/show/354259/react.svg"
   },
   {
-    name: "Affinity Designer",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "Tailwind CSS",
+    logo: "https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg"
   },
   {
-    name: "Blender",
-    logo: "https://kzmj3dv97lsjdhljrgwm.lite.vusercontent.net/placeholder.svg"
+    name: "Next.js",
+    logo: "https://www.svgrepo.com/show/369457/nextjs.svg"
+  },
+  {
+    name: "Astro",
+    logo:"https://astro.build/assets/press/astro-icon-light-gradient.svg"
+
+  },
+  {
+    name: "Git",
+    logo: "https://www.svgrepo.com/show/452210/git.svg"
+  },
+  {
+    name: "GitHub",
+    logo: "https://www.svgrepo.com/show/439171/github.svg"
   }
 ];
 
