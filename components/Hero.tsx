@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
+import { Facebook, Instagram, Twitter, Linkedin } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -18,6 +19,24 @@ export default function Hero() {
           <Button size="lg" variant="outline" asChild>
             <a href="/skills">Explore Skills</a>
           </Button>
+        </div>
+        <div className="flex space-x-4 mt-6">
+          <a href="https://www.facebook.com/profile.php?id=100080837876148" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Facebook className="w-6 h-6 sm:w-8 sm:h-8" />
+            <span className="sr-only">Facebook</span>
+          </a>
+          <a href="https://x.com/SumangalKaran" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Twitter className="w-6 h-6 sm:w-8 sm:h-8" />
+            <span className="sr-only">Twitter</span>
+          </a>
+          <a href="https://www.instagram.com/sumangal_karan" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Instagram className="w-6 h-6 sm:w-8 sm:h-8" />
+            <span className="sr-only">Instagram</span>
+          </a>
+          <a href="https://www.linkedin.com/in/sumangal-karan-468076267/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <Linkedin className="w-6 h-6 sm:w-8 sm:h-8" />
+            <span className="sr-only">LinkedIn</span>
+          </a>
         </div>
       </div>
       <div className="relative w-full max-w-[300px] lg:max-w-[400px] aspect-square">
